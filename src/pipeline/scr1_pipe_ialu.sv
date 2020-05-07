@@ -3,10 +3,7 @@
 /// @brief      Integer Arithmetic Logic Unit (IALU)
 ///
 
-`include "scr1_arch_description.svh"
-`include "scr1_riscv_isa_decoding.svh"
-`include "scr1_search_ms1.svh"
-
+import ialu_tb_pkg::*;
 
 module scr1_pipe_ialu (
 `ifdef SCR1_RVM_EXT
