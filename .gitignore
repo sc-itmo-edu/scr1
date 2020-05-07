@@ -1,2 +1,4 @@
 build/**
 sim/tests/benchmarks/coremark/src/**
+
+sim/unit_tests/**/run/**
