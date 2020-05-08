@@ -1,4 +1,3 @@
-
 class ialu_sum1_monitor extends ialu_base_monitor #(
   // FIXME: uncomment for monitor_config
   // .T_monitor_config(ialu_sum1_monitor_config),
@@ -30,4 +29,3 @@ class ialu_sum1_monitor extends ialu_base_monitor #(
   extern task main_phase(uvm_phase phase);
 
 endclass : ialu_sum1_monitor
-

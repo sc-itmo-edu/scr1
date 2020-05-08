@@ -31,9 +31,7 @@ package ialu_sum1_monitor_pkg;
   endfunction : connect_phase
 
 
-  // Connect Phase
-  //
-  // Connect different components' ports
+  // Main Phase
   task ialu_sum1_monitor::main_phase(uvm_phase phase);
     ialu_sum1_seq_item item = new();
     bit collect_out = 0;

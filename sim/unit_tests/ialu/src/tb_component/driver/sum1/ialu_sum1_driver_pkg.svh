@@ -132,12 +132,6 @@ package ialu_sum1_driver_pkg;
       @(posedge vif.clk);
       req_ready = vif.ialu_rdy; // TODO: change to ready signal
     end
-    // do begin
-    //   // TODO: place wait signals
-    //   vif.ialu_vd       <= '0;
-    //   @(posedge vif.clk);
-    //   req_ready = vif.ialu_rdy; // TODO: change to ready signal
-    // end while(req_ready !== 1);
   endtask : wait_ready
 
 endpackage : ialu_sum1_driver_pkg

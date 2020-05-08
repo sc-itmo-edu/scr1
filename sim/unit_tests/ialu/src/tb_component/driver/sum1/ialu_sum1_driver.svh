@@ -36,4 +36,3 @@ class ialu_sum1_driver extends ialu_base_driver #(
   extern task shutdown_phase(uvm_phase phase);
 
 endclass : ialu_sum1_driver
-
